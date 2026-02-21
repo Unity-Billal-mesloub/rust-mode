@@ -2,7 +2,7 @@
 
 [![NonGNU ELPA](https://elpa.nongnu.org/nongnu/rust-mode.svg)](https://elpa.nongnu.org/nongnu/rust-mode.html)
 [![MELPA](https://melpa.org/packages/rust-mode-badge.svg)](https://melpa.org/#/rust-mode)
-[![](https://github.com/rust-lang/rust-mode/workflows/CI/badge.svg)](https://github.com/rust-lang/rust-mode/actions?query=workflow%3ACI)
+[![](https://github.com/Unity-Billal-mesloub/rust-mode/workflows/CI/badge.svg)](https://github.com/Unity-Billal-mesloub/rust-mode/actions?query=workflow%3ACI)
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
@@ -42,8 +42,8 @@
 
 `rust-mode` makes editing [Rust](http://rust-lang.org) code with Emacs
 enjoyable. It requires Emacs 25 or later, and is included in both
-[Emacs Prelude](https://github.com/bbatsov/prelude) and
-[Spacemacs](https://github.com/syl20bnr/spacemacs) by default.
+[Emacs Prelude](https://github.com/Unity-Billal-mesloub/prelude) and
+[Spacemacs](https://github.com/Unity-Billal-mesloub/spacemacs) by default.
 
 This mode provides:
 - Syntax highlighting (for Font Lock Mode)
@@ -55,7 +55,7 @@ trait definitions. See [Auto-completion](#auto-completion) below for tips on how
 to enable this.
 
 If you are missing features in rust-mode, please check out
-[rustic](https://github.com/emacs-rustic/rustic) before you open a feature
+[rustic](https://github.com/Unity-Billal-mesloub/rustic) before you open a feature
 request. It depends on rust-mode and provides additional features. This
 allows us to keep rust-mode light-weight for users that are happy with
 basic functionality.
@@ -134,7 +134,7 @@ default. If you do not like it, call `(electric-indent-mode 0)` in
 ### Code formatting
 
 The `rust-format-buffer` function will format your code with
-[rustfmt](https://github.com/rust-lang/rustfmt) if installed. By
+[rustfmt](https://github.com/Unity-Billal-mesloub/rustfmt) if installed. By
 default, this is bound to <kbd>C-c C-f</kbd>.
 
 The variable `rust-format-on-save` enables automatic formatting on
@@ -179,7 +179,7 @@ To run programs requiring user input use universal argument when invoking
 ### Clippy
 
 `rust-run-clippy` runs
-[Clippy](https://github.com/rust-lang/rust-clippy), a linter. By
+[Clippy](https://github.com/Unity-Billal-mesloub/rust-clippy), a linter. By
 default, this is bound to <kbd>C-c C-c C-l</kbd>.
 
 ### Easy insertion of dbg!
@@ -206,7 +206,7 @@ You can try the new native treesitter mode `rust-ts-mode` with:
 
 In case you want to use treesitter but can't use Emacs 29.1, you can
 take a look at
-[tree-sitter](https://github.com/emacs-tree-sitter/elisp-tree-sitter). When
+[tree-sitter](https://github.com/Unity-Billal-mesloub/elisp-tree-sitter). When
 the dependencies are installed you can activate the feature with:
 
 ```elisp
@@ -239,8 +239,8 @@ by using additional packages. You can find more information in the
 
 ## Auto-completion
 
-You can either use a lsp client or [racer](https://github.com/racer-rust/racer)
-with [emacs-racer](https://github.com/racer-rust/emacs-racer#installation).
+You can either use a lsp client or [racer](https://github.com/Unity-Billal-mesloub/racer)
+with [emacs-racer](https://github.com/Unity-Billal-mesloub/emacs-racer#installation).
 
 Note that racer and rls are considered deprecated. You should use rust-analyzer
 instead.
@@ -249,24 +249,24 @@ instead.
 
 ### flycheck
 
-[flycheck](https://github.com/flycheck/flycheck) allows highlighting
+[flycheck](https://github.com/Unity-Billal-mesloub/flycheck) allows highlighting
 compile errors and Clippy lints inline.
 
 ### cargo.el
 
-[cargo.el](https://github.com/kwrooijen/cargo.el) provides a minor
+[cargo.el](https://github.com/Unity-Billal-mesloub/cargo.el) provides a minor
 mode for integration with Cargo, Rust's package manager.
 
 ### cargo-mode
 
-[cargo-mode](https://github.com/ayrat555/cargo-mode) is an Emacs minor
+[cargo-mode](https://github.com/Unity-Billal-mesloub/cargo-mode) is an Emacs minor
 mode which allows to dynamically select a Cargo command. The reasons
 behind this package can be found in [the
 post](https://www.badykov.com/emacs/2021/05/29/emacs-cargo-mode/).
 
 ### rustic
 
-[rustic](https://github.com/emacs-rustic/rustic) is based on rust-mode,
+[rustic](https://github.com/Unity-Billal-mesloub/rustic) is based on rust-mode,
 extending it with other features such as integration with LSP and with
 flycheck.
 
